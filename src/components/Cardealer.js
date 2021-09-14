@@ -18,6 +18,9 @@ class Cardealer extends React.Component {
     };
   }
 
+  componentDidUpdate() {
+    alert("Update Harga Total");
+  }
   /*   componentDidMount() {
     alert(`Mount triggered!`);
   }
@@ -31,13 +34,6 @@ class Cardealer extends React.Component {
   shouldComponentUpdate(nextProps, nextState, nextContext) {
     return window.confirm("Haruskah Component ini di-Update?");
   } */
-
-  handleTotal = () => {
-    const { Quantity, Hargamobil } = this.state;
-    this.setState({
-      HargaTotal: Quantity * Hargamobil,
-    });
-  };
 
   /*   handleCalculation= () => {
     const {
@@ -148,7 +144,7 @@ class Cardealer extends React.Component {
               Total Harga
             </p>
             <p class="text-black dark:text-gray-100 text-justify font-semibold">
-              $15 000,00
+              {this.state.Quantity * this.state.mobil[0][1]}
             </p>
           </div>
         </div>
