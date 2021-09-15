@@ -8,28 +8,7 @@ const image = [
   {
     Gambar:
       "https://cdns.klimg.com/otosia.com/p/bank/2018/08/25/wujud-lebih-agresif--lamborghini-aventador-svj-diproduksi-terbatas-b0a1cc.jpg ",
-  },
-  {
-    Gambar: " ",
-  },
-  {
-    Gambar: " ",
-  },
-  {
-    Gambar: " ",
-  },
-  {
-    Gambar: " ",
-  },
-  {
-    Gambar: " ",
-  },
-  {
-    Gambar: " ",
-  },
-  {
-    Gambar: " ",
-  },
+  }
 ];
 
 ReactDOM.render(
