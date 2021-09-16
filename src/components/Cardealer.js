@@ -177,10 +177,6 @@ class Cardealer extends React.Component {
       </div>
     );
   }
-
-  componentWillUnmount(){
-    alert("Data berhasil diubah.")
-  }
 }
 
 export default Cardealer;
